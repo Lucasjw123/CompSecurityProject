@@ -1,5 +1,5 @@
 
-#Progress on 2 items from the checklist:
+# Progress on 2 items from the checklist:
 ## 1. Fixed a buffer overflow vulnerability in the input parser: Added bounds checking to prevent the user from inputting more characters than the buffer can hold. Work completed: added bounds checking to input parser function.
 ## 2. Added exception handling to the area calculation function: Implemented try-catch blocks to handle potential errors when calculating the area of a shape. Work completed: added try-catch blocks to area calculation function.
 # Explanation of work completed:
