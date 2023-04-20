@@ -107,4 +107,70 @@ int main()
     char input;
 
     do {
-        cout << "\nEnter
+        cout << "\nEnter an option (l for line, r for rectangle, c for circle, v for vector of points, m for merging points): ";
+        cin >> input;
+
+        switch (input) {
+            case 'l': {
+                int a, b, c, d;
+                cout << "Enter values for line (a, b, c, d): ";
+                cin >> a >> b >> c >> d;
+                lineObj.LineCalculor(a, b, c, d);
+                cout << "Slope: " << lineObj.LineSlopeReturn() << endl;
+                cout << "Angle: " << lineObj.LineAngleReturn() << endl;
+                cout << "Length: " << lineObj.LineLengthReturn() << endl;
+                break;
+            }
+            case 'r': {
+                int a, b, c, d;
+                cout << "Enter values for rectangle (a, b, c, d): ";
+                cin >> a >> b >> c >> d;
+                recObj.RectangleCalculator(a, b, c, d);
+                cout << "Width: " << recObj.RectangleWidth() << endl;
+                cout << "Length: " << recObj.RectangleLength() << endl;
+                cout << "Top left point: (" << recObj.RectangleCalculationPointX() << ", " << recObj.RectangleCalculationPointY() << ")" << endl;
+                cout << "Bottom right point: (" << recObj.RectangleCalculationPointXPlusW() << ", " << recObj.RectangleCalculationPointYPlusL() << ")" << endl;
+                break;
+            }
+            case 'c': {
+                int a, b, c;
+                cout << "Enter values for circle (a, b, c): ";
+                cin >> a >> b >> c;
+                circleObj.CircleCalculator(a, b, c);
+                cout << "Circumference: " << circleObj.CircleCircumferenceReturn() << endl;
+                cout << "Area: " << circleObj.CircleAreaReturn() << endl;
+                break;
+            }
+            case 'v': {
+                int n;
+                cout << "Enter number of points to add to vector: ";
+                cin >> n;
+                cout << "Enter points (x, y) separated by space or newline:" << endl;
+                for (int i = 0; i < n; i++) {
+                    int x, y;
+                    cin >> x >> y;
+                    pointObj.setPoint(x, y);
+                    vectorObj.myvector.push_back(pointObj.getMerge());
+                }
+                break;
+            }
+            case 'm': {
+                int x, y;
+                cout << "Enter two points to merge (x1, y1) (x2, y2): ";
+                cin >> x >> y;
+                PointMerge p1, p2;
+                p1.setPoint(x, y);
+                cin >> x >> y;
+                p2.setPoint(x, y);
+                cout << "Merged point: (" << p1.getX() + p2.getX() << ", " << p1.getY() + p2.getY() << ")" << endl;
+                break;
+            }
+            default:
+                cout << "Invalid input. Please try again." << endl;
+                break;
+        }
+    } while (input != 'q');
+
+    return 0;
+}
+    
