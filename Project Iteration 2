@@ -1,0 +1,28 @@
+# Documenting Planning Issues:
+During the initial planning phase, there may be some issues that are not addressed or resolved.
+These issues may arise due to a lack of information, resources, or time.
+It is important to document these issues and ensure that they are addressed in future planning or projects.
+
+For example, if a project did not account for potential delays in delivery of materials, this issue should be documented and addressed in future planning. This could involve ordering materials earlier or sourcing alternative suppliers. By documenting planning issues, future projects can be improved and better prepared for potential problems.
+
+# Fixing Software Issues:
+Fixing software issues is an important part of ensuring the security and stability of a system. When a vulnerability or bug is identified, it is essential to fix it as quickly as possible to prevent it from being exploited by attackers.
+
+To fix a software issue, a developer may need to analyze the code, identify the cause of the problem, and implement a solution. This may involve modifying code, adding new features, or removing functionality. Once the fix is implemented, the software should be thoroughly tested to ensure that it is working correctly and that the issue has been resolved.
+
+# Increasing Security with Online Repositories:
+Online repositories such as GitHub or GitLab can help to improve security in several ways:
+
+Access control and Code Sharing/Distribution: Online repositories allow developers to control access to their code by setting permissions and restrictions. This helps to prevent unauthorized access and ensure that only approved team members can view or modify the code. Additionally, online repositories provide a centralized location for storing and sharing code, making it easier for developers to collaborate and work together.
+
+Network Security: Online repositories can improve network security by providing secure channels for communication and data transfer. Repositories often use encryption to protect data in transit, and may also provide additional security features such as two-factor authentication or IP whitelisting.
+
+Accounting Issues: Online repositories provide a record of all changes made to the code, including who made the change and when. This can help to prevent accounting issues by providing an audit trail of all code modifications.
+
+# Security Testing:
+Security testing is an essential part of ensuring that a system is secure and resilient to attacks. This may involve a variety of techniques, such as penetration testing, vulnerability scanning, or code review. The goal of security testing is to identify vulnerabilities and weaknesses in the system, and to provide recommendations for how to address them.
+
+When implementing security testing, it is important to have a plan in place. This may involve defining the scope of the testing, identifying the types of tests to be performed, and selecting appropriate tools and methodologies. Additionally, it is important to have a process for addressing any vulnerabilities or weaknesses that are identified during the testing.
+
+# Other Documentation:
+Other documentation that may be useful in a software development project includes diagrams, reports, checklists, or other materials. These can help to provide a clear understanding of the project scope, requirements, and progress. For example, a project plan or Gantt chart can provide a visual representation of the project timeline and milestones, while a requirements document can outline the functional and non-functional requirements of the system. Checklists can help to ensure that all necessary tasks are completed and that quality standards are met. Overall, documentation is an important aspect of software development and can help to ensure that a project is successful and meets its goals.
